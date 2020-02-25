@@ -1,0 +1,6 @@
+Prefix: "&6[&bXiaoJoin&6]"
+NoPermission: "&c你没有权限这样做"
+SuccessReload: "&a重载完成!"
+FailReload: "&c重载失败!请前往控制台查看报错."
+NullCommand: "&c未知指令."
+NeedPlayer: "&c只有玩家才能执行该操作."
