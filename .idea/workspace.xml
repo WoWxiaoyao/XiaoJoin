@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f96011fb-73ff-4396-82f9-e0515e8cf726" name="Default Changelist" comment="" />
+    <list default="true" id="f96011fb-73ff-4396-82f9-e0515e8cf726" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XiaoJoin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XiaoJoin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XiaoJoin/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XiaoJoin/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zbv5/cn/XiaoJoin/util/PrintUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zbv5/cn/XiaoJoin/util/PrintUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zbv5/cn/XiaoJoin/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zbv5/cn/XiaoJoin/util/Util.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YEettUzus8HoIYctkPcCUpSKp8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PlaceholderAPI-1.0-SNAPSHOT.jar!/" />
@@ -84,7 +97,10 @@
       <option name="presentableId" value="Default" />
       <updated>1582512398556</updated>
       <workItem from="1582512400330" duration="12411000" />
-      <workItem from="1582594230259" duration="16085000" />
+      <workItem from="1582594230259" duration="17125000" />
+      <workItem from="1583286800911" duration="396000" />
+      <workItem from="1583288141280" duration="1970000" />
+      <workItem from="1583293302879" duration="1527000" />
     </task>
     <servers />
   </component>
@@ -96,26 +112,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="365" y="300" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582549910415" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1582617818371">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1582645933023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582617818371" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1582617818371">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582645933023" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1582645933023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582617818371" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1582617818369">
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582645933023" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1582645933023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582617818369" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1582617818371">
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582645933023" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1582645933023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582617818371" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582645933023" />
     <state x="171" y="134" key="SettingsEditor" timestamp="1582549912720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="171" y="134" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582549912720" />
+    <state x="334" y="98" key="new project wizard" timestamp="1582645932941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="98" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1582645932941" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582628859478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

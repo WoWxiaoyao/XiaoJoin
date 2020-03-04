@@ -49,15 +49,14 @@ public class Util
         }
     }
 
-
-    public static void Delay(Player p,List<String> RunList,int i)
+    public static void Delay (Player p,List<String> RunList,int i)
     {
-        final Timer timer=new Timer(); TimerTask task=new TimerTask(){
-        public void run(){
-            PrintUtil.Run(p,RunList);
-            timer.cancel();
-        }
-    };
-        timer.schedule(task,i*1000);
+        Main.getInstance().getServer().getScheduler().scheduleDelayedTask(Main.getInstance(), new Runnable()
+        {
+            public void run()
+            {
+                PrintUtil.Run(p,RunList);
+            }
+        }, i*20);
     }
 }

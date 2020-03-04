@@ -1,22 +1,25 @@
-#                           XiaoJoin
+############################################################################################################################
+#                       XiaoJoin
 #
 #   执行格式支持:
-#     [message] 向玩家发出一句话  例子:   - "[message]&8好哥哥,你真棒~"
-#     [bc] 向服务器发出公告  例子:   - "[bc]&8服主你太帅了~"
-#     [console] 服务器发送指令  例子:   - "[console]say 233"
-#     [player] 玩家发送指令  例子:   - "[player]help"
-#     [op] 玩家以OP身份发送指令  例子:   - "[op]give {player} 1 1"
-#    [playerchat] 玩家发送聊天消息  例子:   - "[playerchat]我要充648!"
-#    [title] 给玩家发送Title  例子1:   - "[title]欢迎"
-#                           例子2:   - "[title]欢迎,{player}"
-#                           例子3:   - "[title]欢迎,{player},1,50,15"       后三int数字分别为fadeIn stay fadeOut
+#    [message] 向玩家发出一句话       例子:   - "[message]&8好哥哥,你真棒~"
+#    [bc] 向服务器发出公告            例子:   - "[bc]&8服主你太帅了~"
+#    [console] 服务器发送指令         例子:   - "[console]say 233"
+#    [player] 玩家发送指令            例子:   - "[player]help"
+#    [op] 玩家以OP身份发送指令        例子:   - "[op]give {player} 1 1"
+#    [playerchat] 玩家发送聊天消息    例子:   - "[playerchat]我要充648!"
+#    [title] 给玩家发送Title          例子1:   - "[title]欢迎"
+#                                     例子2:   - "[title]欢迎,{player}"
+#                                     例子3:   - "[title]欢迎,{player},1,50,15"       后三int数字分别为fadeIn stay fadeOut
 #    [ActionBar] 给玩家发送ActionBar  例子1:   - "[ActionBar]欢迎"
-#                                   例子2:   - "[ActionBar]欢迎,1,50,15"       后三int数字分别为fadeIn stay fadeOut
+#                                     例子2:   - "[ActionBar]欢迎,1,50,15"       后三int数字分别为fadeIn stay fadeOut
 #
 #   本插件已支持 PlaceholderAPI变量    其他额外变量和需求欢迎评论留言
-#
+############################################################################################################################
+
 #取消原版自带的玩家进入消息
 CancelJoinMessage: true
+
 #延迟执行进入消息
 #因为在测试过程中发现玩家进入服务器后在加载页面就会触发事件,所以为了title等操作正常运行添加延迟执行Join操作
 #模拟器以及古董安卓机测试大概在10-15s左右即可 请根据实际情况进行调整
@@ -25,6 +28,7 @@ Delay:
   Enable: false
   #延迟时长(s)
   DelayTime: 15
+
 #格式列表
 Formats:
   #默认组
