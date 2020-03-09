@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f96011fb-73ff-4396-82f9-e0515e8cf726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XiaoJoin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XiaoJoin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XiaoJoin/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XiaoJoin/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zbv5/cn/XiaoJoin/util/PrintUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zbv5/cn/XiaoJoin/util/PrintUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zbv5/cn/XiaoJoin/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zbv5/cn/XiaoJoin/util/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PlaceholderAPI-1.0-SNAPSHOT.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,7 +96,8 @@
       <workItem from="1582594230259" duration="17125000" />
       <workItem from="1583286800911" duration="396000" />
       <workItem from="1583288141280" duration="1970000" />
-      <workItem from="1583293302879" duration="1527000" />
+      <workItem from="1583293302879" duration="2147000" />
+      <workItem from="1583715789042" duration="100000" />
     </task>
     <servers />
   </component>

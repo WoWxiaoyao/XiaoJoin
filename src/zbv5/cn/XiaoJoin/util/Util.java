@@ -55,7 +55,10 @@ public class Util
         {
             public void run()
             {
-                PrintUtil.Run(p,RunList);
+                if(p.isOnline())
+                {
+                    PrintUtil.Run(p,RunList);
+                }
             }
         }, i*20);
     }
